@@ -14,6 +14,7 @@ export const useFetchGifs = (category) => {
                 setIsLoading(false);
             });        
     }, [] );
+
     // deps = [] significa que solo se ejecuta una vez al crear el componente  
 
     const resultFetch = {
